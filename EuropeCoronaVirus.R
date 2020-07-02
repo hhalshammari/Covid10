@@ -1,5 +1,5 @@
 setwd("~/Desktop/R/EuropeCoronaVirus/")
-File_data <- read.csv("data.csv")
+File_data <- read.csv("NewData.csv")
 View(File_data)
 
 CountryData<- subset(File_data, File_data$countriesAndTerritories == "United_States_of_America")
