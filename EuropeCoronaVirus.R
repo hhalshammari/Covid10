@@ -1,4 +1,5 @@
 setwd("~/Desktop/R/EuropeCoronaVirus/")
+
 File_data <- read.csv("NewData.csv")
 View(File_data)
 
